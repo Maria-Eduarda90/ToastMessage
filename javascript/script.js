@@ -12,7 +12,7 @@ button.addEventListener("click", (event) => {
     return ToatsError("Preencha o campo senha");
   }
 
-  return ToastSuccess("Usuario criado com sucesso");
+  return ToastSuccess("Usuario logado com sucesso");
 });
 
 function ToatsError(message) {
